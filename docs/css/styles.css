@@ -226,3 +226,23 @@ body.page-about .banner .inner {
     margin: 0;
     position: relative;
 }
+body.page-gallery .responsive-thumb-holder {
+    height: 0;
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+    margin-top: 30px;
+}
+body.page-gallery .thumb {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
