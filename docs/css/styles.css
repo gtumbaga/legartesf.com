@@ -183,7 +183,7 @@ footer .links-holder {
      padding-right: 0;
      height: 28px;
      line-height: 28px;
-     text-decoration: none;;
+     text-decoration: none;
      color: #000;
      border-left: solid 1px #000;
  }
@@ -245,4 +245,14 @@ body.page-gallery .thumb {
     bottom: 0;
     left: 0;
     right: 0;
+}
+
+
+body.page-contact .contact-info a {
+    color: #000;
+    text-decoration: none;
+}
+
+.form-control {
+    border-color: #0098ca;
 }
