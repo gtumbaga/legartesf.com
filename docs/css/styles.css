@@ -1,0 +1,39 @@
+body {
+    background-color: #f2f2f2;
+    color: #353535;
+    font-family: "Arial",sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    font-style: normal;
+    padding: 0;
+    word-wrap: break-word;
+
+    background-image: url('/css/img/bg.png');
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Oswald", "Impact", sans-serif;
+    font-weight: bold;
+}
+
+h1 { font-size: 36px; text-transform: uppercase; }
+h2 { font-size: 30px; text-transform: uppercase;}
+h3 { font-size: 26px; }
+h4 { font-size: 22px; }
+h5 { font-size: 20px; }
+h6 { font-size: 18px; }
+
+.heading {
+    height: 124px;
+    padding: 5px 20px;
+    background: #fff;
+}
+.header-logo {
+    display: inline-block !important;
+    width: 110px;
+}
