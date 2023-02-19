@@ -28,12 +28,74 @@ h4 { font-size: 22px; }
 h5 { font-size: 20px; }
 h6 { font-size: 18px; }
 
+.brand {
+    color: #211F5F;
+    display: inline-block;
+    /*white-space: nowrap;*/
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+    margin-top: 30px;
+}
+
 .heading {
     height: 124px;
     padding: 5px 20px;
     background: #fff;
 }
 .header-logo {
-    display: inline-block !important;
+    display: block !important;
+    float: left;
     width: 110px;
+}
+.heading ul.nav li {
+    display: inline-block;
+}
+.heading ul.nav li a {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    border-style: solid;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    color: #000000;
+
+    text-decoration: none;
+    display: block;
+}
+.heading ul.nav li.active a {
+    color: #0098CA;
+}
+.heading ul.nav li a:hover {
+    color: #0098CA;
+}
+.heading ul.nav li a:after {
+    content: ' ';
+    border: 1px solid transparent;
+    transition: 0.4s ease-in-out;
+    display: block;
+    width: 0;
+    margin: 2px auto 0 auto;
+}
+.heading ul.nav li.active a:after,
+.heading ul.nav li:hover a:after{
+    color: #0098CA;
+    content: '';
+    border-color: #075ead;
+    width: 25px;
+}
+.heading .info {
+    font-size: 16px;
+}
+.heading .info .line {
+    display: block;
+}
+
+.fa-phone {
+    color: #0098CA;
 }

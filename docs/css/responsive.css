@@ -1,0 +1,59 @@
+@media handheld, only screen and (max-width: 991px) {
+    .heading {
+        height: 150px;
+    }
+}
+@media handheld, only screen and (max-width: 767px) {
+    #logo-holder {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 20px;
+        width: 300px;
+    }
+    .heading .info {
+        text-align: center;
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+    .heading ul.nav {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 86px;
+
+        font-size: 16px;
+    }
+}
+@media handheld, only screen and (max-width: 575px) {
+    .brand {
+        font-size: 16px;
+        margin-top: 14px;
+    }
+    .header-logo {
+        width: 70px;
+    }
+    /*#logo-holder {*/
+        /*left: 10px;*/
+    /*}*/
+    .heading .info {
+        text-align: center;
+        font-size: 12px;
+        /*right: 10px;*/
+    }
+    .heading ul.nav {
+        margin-top: 70px;
+
+        font-size: 16px;
+    }
+    .heading {
+        height: 130px;
+    }
+}
+@media handheld, only screen and (max-width: 359px) {
+    .heading ul.nav {
+        font-size: 14px;
+    }
+}
