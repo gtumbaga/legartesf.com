@@ -15,6 +15,9 @@ body {
     background-attachment: scroll;
     background-size: auto;
 }
+.body {
+    min-height: 560px;
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Oswald", "Impact", sans-serif;
@@ -23,12 +26,28 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 { font-size: 36px; text-transform: uppercase; }
 h2 { font-size: 30px; text-transform: uppercase;}
-h3 { font-size: 26px; }
+h3 { font-size: 25px; }
 h4 { font-size: 22px; }
 h5 { font-size: 20px; }
 h6 { font-size: 18px; }
 
+.btn {
+    border-radius: 0 !important;
+    border-width: 0;;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+.btn-primary {
+    background: #0098ca;
+    color: #000;
+}
+.btn-primary:hover {
+    background-color: #211F5F;
+}
+
+
 .brand {
+    font-family: "Oswald", "Impact", sans-serif;
     color: #211F5F;
     display: inline-block;
     /*white-space: nowrap;*/
@@ -98,4 +117,81 @@ h6 { font-size: 18px; }
 
 .fa-phone {
     color: #0098CA;
+}
+
+
+
+.hero {
+    padding: 20px;
+    background-color: #fff;
+
+    background-image: url(/css/img/hero.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.hero .img-holder {
+    margin: 20px;
+}
+.hero .text-inner {
+    height: 100%;
+}
+.hero .sub-heading {
+    font-size: 25px;
+}
+
+footer {
+    background: #f4f4f4;
+}
+
+footer .footer-top {
+    padding-bottom: 10px;
+}
+
+footer .brand {
+    margin-top: 0;
+}
+footer .copyright {
+    padding: 10px 0;
+    background: #211F5F;
+    font-size: 13px;
+    color: #fff;
+}
+footer .links-holder {
+    padding: 10px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 0;
+}
+ footer .links-holder a {
+     font-size: 18px;
+     display: inline-block;
+     padding: 0 20px;
+     margin: 0 20px;
+     margin-left: 0;
+     padding-right: 0;
+     height: 28px;
+     line-height: 28px;
+     text-decoration: none;;
+     color: #000;
+     border-left: solid 1px #000;
+ }
+ footer .links-holder a:first-child {
+     padding-left: 0;
+     border-left: none;
+ }
+
+footer .epa-img-holder {
+    position: relative;
+    width: 100%;
+    height: 88px;
+}
+footer .epa-img-holder img {
+    position: absolute;
+    right: 0;
+    display: block;
+    margin: 0;
+    width: 120px;
+    height: 88px;
 }

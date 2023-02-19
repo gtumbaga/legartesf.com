@@ -2,6 +2,12 @@
     .heading {
         height: 150px;
     }
+    footer .links-holder a {
+        display: block;
+        border-left: none;
+        padding: 7px 0;
+
+    }
 }
 @media handheld, only screen and (max-width: 767px) {
     #logo-holder {
@@ -25,6 +31,9 @@
         margin-top: 86px;
 
         font-size: 16px;
+    }
+    footer .links-holder a {
+        text-align: center;
     }
 }
 @media handheld, only screen and (max-width: 575px) {
