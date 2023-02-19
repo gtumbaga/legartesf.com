@@ -115,7 +115,7 @@ h6 { font-size: 18px; }
     display: block;
 }
 
-.fa-phone {
+i.fa {
     color: #0098CA;
 }
 
@@ -146,12 +146,13 @@ footer {
 }
 
 footer .footer-top {
+    padding-top: 30px;
     padding-bottom: 10px;
 }
 
-footer .brand {
-    margin-top: 0;
-}
+/*footer .brand {*/
+    /*margin-top: 0;*/
+/*}*/
 footer .copyright {
     padding: 10px 0;
     background: #211F5F;
@@ -194,4 +195,8 @@ footer .epa-img-holder img {
     margin: 0;
     width: 120px;
     height: 88px;
+}
+footer a {
+    text-decoration: none;
+    color: #000;;
 }
