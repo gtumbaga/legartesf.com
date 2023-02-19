@@ -31,6 +31,15 @@ h4 { font-size: 22px; }
 h5 { font-size: 20px; }
 h6 { font-size: 18px; }
 
+.fancy-heading {
+    margin-bottom: -160px;
+}
+.fancy-heading h2 {
+    font-size: 120px;
+    text-align: right;
+    color: rgba(0,152,202,0.1);
+}
+
 .btn {
     border-radius: 0 !important;
     border-width: 0;;
@@ -134,7 +143,7 @@ i.fa {
 .hero .img-holder {
     margin: 20px;
 }
-.hero .text-inner {
+.text-inner {
     height: 100%;
 }
 .hero .sub-heading {
@@ -199,4 +208,21 @@ footer .epa-img-holder img {
 footer a {
     text-decoration: none;
     color: #000;;
+}
+
+body.page-about .banner {
+    color: #fff;
+    background-image: url('/img/about/banner-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+body.page-about .banner .inner {
+
+    background: rgb(33,33,33,.7);
+    padding: 20px;
+    padding-top: 40px;
+    margin: 0;
+    position: relative;
 }
