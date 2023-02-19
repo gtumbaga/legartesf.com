@@ -256,3 +256,7 @@ body.page-contact .contact-info a {
 .form-control {
     border-color: #0098ca;
 }
+#EmailForm label {
+    font-weight: bold;
+    color: #000;
+}
