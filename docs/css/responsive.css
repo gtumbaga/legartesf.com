@@ -7,6 +7,12 @@
     .heading {
         height: 150px;
     }
+    .fancy-heading {
+        margin-bottom: -42px;
+    }
+    .fancy-heading h2 {
+        font-size: 80px;
+    }
     footer .links-holder a {
         display: block;
         border-left: none;
@@ -46,6 +52,9 @@
         margin-top: 86px;
 
         font-size: 16px;
+    }
+    .fancy-heading {
+        display: none;
     }
     footer .footer-top .row {
         margin-bottom: 20px;
