@@ -263,3 +263,6 @@ body.page-contact .contact-info a {
     font-weight: bold;
     color: #000;
 }
+.clients .row {
+    margin-bottom: 20px;
+}
